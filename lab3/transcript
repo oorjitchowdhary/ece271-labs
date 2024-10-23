@@ -1,0 +1,52 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:10:14 on Oct 22,2024
+# vlog -reportprogress 300 ./returns.sv 
+# -- Compiling module returns
+# -- Compiling module returns_testbench
+# 
+# Top level modules:
+# 	returns_testbench
+# End time: 16:10:14 on Oct 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:10:14 on Oct 22,2024
+# vlog -reportprogress 300 ./display.sv 
+# -- Compiling module display
+# -- Compiling module display_testbench
+# 
+# Top level modules:
+# 	display_testbench
+# End time: 16:10:14 on Oct 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work returns_testbench 
+# Start time: 16:10:14 on Oct 22,2024
+# Loading sv_std.std
+# Loading work.returns_testbench
+# Loading work.returns
+# End time: 16:10:19 on Oct 22,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work display_testbench 
+# Start time: 16:10:19 on Oct 22,2024
+# Loading sv_std.std
+# Loading work.display_testbench
+# Loading work.display
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/discounted'.
+# Executing ONERROR command at macro ./returns_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/stolen'.
+# Executing ONERROR command at macro ./returns_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/U'.
+# Executing ONERROR command at macro ./returns_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/P'.
+# Executing ONERROR command at macro ./returns_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/C'.
+# Executing ONERROR command at macro ./returns_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/M'.
+# Executing ONERROR command at macro ./returns_wave.do line 8
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 22:06:05 on Oct 22,2024, Elapsed time: 5:55:46
+# Errors: 18, Warnings: 0

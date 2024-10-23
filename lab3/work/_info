@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/oorji/Desktop/ee271/lab3
+vdisplay
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1729638614
+!i10b 1
+!s100 NY35Qmg`kUZSF9kbeLLfm0
+I<dISHWS7D4UQO[=8L`joT0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 display_sv_unit
+S1
+R0
+Z5 w1729638089
+Z6 8./display.sv
+Z7 F./display.sv
+L0 2
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1729638614.000000
+Z10 !s107 ./display.sv|
+Z11 !s90 -reportprogress|300|./display.sv|
+!i113 1
+Z12 tCvgOpt 0
+vdisplay_testbench
+R1
+R2
+!i10b 1
+!s100 ?l=l[dE7SZ;OJkUOK2_Ue0
+IL<83?J^dk[mn<KGdb>hiB2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 31
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vreturns
+R1
+R2
+!i10b 1
+!s100 6^6eT8?`Mm=?c@ATKW]^73
+IW719KH_Na6<n3P7h`Pl1A0
+R3
+Z13 !s105 returns_sv_unit
+S1
+R0
+Z14 w1729624819
+Z15 8./returns.sv
+Z16 F./returns.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 ./returns.sv|
+Z18 !s90 -reportprogress|300|./returns.sv|
+!i113 1
+R12
+vreturns_testbench
+R1
+R2
+!i10b 1
+!s100 >IB]LHfHeAh_Z2c4?`N_k0
+I2o]2MbDA@k8^[<[n2aB313
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 12
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 1
+R12
