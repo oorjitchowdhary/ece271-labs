@@ -6,18 +6,21 @@ vlib work
 #     their own "vlog" line below.
 vlog "./returns.sv"
 vlog "./display.sv"
+vlog "./main.sv"
 
 # Call vsim to invoke simulator
 #     Make sure the last item on the line is the name of the
 #     testbench module you want to execute.
 vsim -voptargs="+acc" -t 1ps -lib work returns_testbench
 vsim -voptargs="+acc" -t 1ps -lib work display_testbench
+vsim -voptargs="+acc" -t 1ps -lib work main_testbench
 
 # Source the wave do file
 #     This should be the file that sets up the signal window for
 #     the module you are testing.
 do returns_wave.do
 do display_wave.do
+do main_wave.do
 
 # Set the window types
 view wave

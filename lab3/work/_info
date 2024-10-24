@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/oorji/Desktop/ee271/lab3
 vdisplay
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1729638614
+Z2 !s110 1729801768
 !i10b 1
 !s100 NY35Qmg`kUZSF9kbeLLfm0
 I<dISHWS7D4UQO[=8L`joT0
@@ -26,7 +26,7 @@ Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1729638614.000000
+Z9 !s108 1729801768.000000
 Z10 !s107 ./display.sv|
 Z11 !s90 -reportprogress|300|./display.sv|
 !i113 1
@@ -54,6 +54,52 @@ R10
 R11
 !i113 1
 R12
+vmain
+R1
+R2
+!i10b 1
+!s100 K]kXTJk7:IiMLWdaYMIKO1
+IOY9AKB^cJ[zI2BYUk@m?R3
+R3
+Z13 !s105 main_sv_unit
+S1
+R0
+Z14 w1729801706
+Z15 8./main.sv
+Z16 F./main.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 ./main.sv|
+Z18 !s90 -reportprogress|300|./main.sv|
+!i113 1
+R12
+vmain_testbench
+R1
+R2
+!i10b 1
+!s100 <H2IG[IYXb8O=hHN27NFh3
+IaESE51EQ<I[giI^QF8VZV2
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 10
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 1
+R12
 vreturns
 R1
 R2
@@ -61,20 +107,20 @@ R2
 !s100 6^6eT8?`Mm=?c@ATKW]^73
 IW719KH_Na6<n3P7h`Pl1A0
 R3
-Z13 !s105 returns_sv_unit
+Z19 !s105 returns_sv_unit
 S1
 R0
-Z14 w1729624819
-Z15 8./returns.sv
-Z16 F./returns.sv
+Z20 w1729624819
+Z21 8./returns.sv
+Z22 F./returns.sv
 L0 3
 R8
 r1
 !s85 0
 31
 R9
-Z17 !s107 ./returns.sv|
-Z18 !s90 -reportprogress|300|./returns.sv|
+Z23 !s107 ./returns.sv|
+Z24 !s90 -reportprogress|300|./returns.sv|
 !i113 1
 R12
 vreturns_testbench
@@ -84,19 +130,19 @@ R2
 !s100 >IB]LHfHeAh_Z2c4?`N_k0
 I2o]2MbDA@k8^[<[n2aB313
 R3
-R13
+R19
 S1
 R0
-R14
-R15
-R16
+R20
+R21
+R22
 L0 12
 R8
 r1
 !s85 0
 31
 R9
-R17
-R18
+R23
+R24
 !i113 1
 R12

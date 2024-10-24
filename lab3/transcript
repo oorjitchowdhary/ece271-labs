@@ -2,36 +2,90 @@
 do runlab.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:10:14 on Oct 22,2024
+# Start time: 13:27:17 on Oct 24,2024
 # vlog -reportprogress 300 ./returns.sv 
 # -- Compiling module returns
 # -- Compiling module returns_testbench
 # 
 # Top level modules:
 # 	returns_testbench
-# End time: 16:10:14 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 13:27:17 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:10:14 on Oct 22,2024
+# Start time: 13:27:17 on Oct 24,2024
 # vlog -reportprogress 300 ./display.sv 
 # -- Compiling module display
 # -- Compiling module display_testbench
 # 
 # Top level modules:
 # 	display_testbench
-# End time: 16:10:14 on Oct 22,2024, Elapsed time: 0:00:00
+# End time: 13:27:17 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:18 on Oct 24,2024
+# vlog -reportprogress 300 ./main.sv 
+# -- Compiling module main
+# -- Compiling module main_testbench
+# ** Error: ./main.sv(16): 'dut' already declared in this scope.
+# End time: 13:27:18 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 9
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./main.sv""
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:28:38 on Oct 24,2024
+# vlog -reportprogress 300 ./returns.sv 
+# -- Compiling module returns
+# -- Compiling module returns_testbench
+# 
+# Top level modules:
+# 	returns_testbench
+# End time: 13:28:38 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:28:38 on Oct 24,2024
+# vlog -reportprogress 300 ./display.sv 
+# -- Compiling module display
+# -- Compiling module display_testbench
+# 
+# Top level modules:
+# 	display_testbench
+# End time: 13:28:38 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:28:38 on Oct 24,2024
+# vlog -reportprogress 300 ./main.sv 
+# -- Compiling module main
+# -- Compiling module main_testbench
+# 
+# Top level modules:
+# 	main_testbench
+# End time: 13:28:38 on Oct 24,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -t 1ps -lib work returns_testbench 
-# Start time: 16:10:14 on Oct 22,2024
+# Start time: 13:28:39 on Oct 24,2024
 # Loading sv_std.std
 # Loading work.returns_testbench
 # Loading work.returns
-# End time: 16:10:19 on Oct 22,2024, Elapsed time: 0:00:05
+# End time: 13:28:43 on Oct 24,2024, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -t 1ps -lib work display_testbench 
-# Start time: 16:10:19 on Oct 22,2024
+# Start time: 13:28:43 on Oct 24,2024
 # Loading sv_std.std
 # Loading work.display_testbench
+# Loading work.display
+# End time: 13:28:45 on Oct 24,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work main_testbench 
+# Start time: 13:28:45 on Oct 24,2024
+# Loading sv_std.std
+# Loading work.main_testbench
+# Loading work.main
+# Loading work.returns
 # Loading work.display
 # ** Error: (vish-4014) No objects found matching '/returns_testbench/discounted'.
 # Executing ONERROR command at macro ./returns_wave.do line 3
@@ -45,8 +99,114 @@ do runlab.do
 # Executing ONERROR command at macro ./returns_wave.do line 7
 # ** Error: (vish-4014) No objects found matching '/returns_testbench/M'.
 # Executing ONERROR command at macro ./returns_wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/display_testbench/U'.
+# Executing ONERROR command at macro ./display_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/display_testbench/P'.
+# Executing ONERROR command at macro ./display_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/display_testbench/C'.
+# Executing ONERROR command at macro ./display_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/display_testbench/HEX2'.
+# Executing ONERROR command at macro ./display_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/display_testbench/HEX1'.
+# Executing ONERROR command at macro ./display_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/display_testbench/HEX0'.
+# Executing ONERROR command at macro ./display_wave.do line 8
+# ** Error: Cannot open macro file: main_wave.do
+# Error in macro ./runlab.do line 23
+# Cannot open macro file: main_wave.do
+#     while executing
+# "do main_wave.do"
+add wave -position end  sim:/main_testbench/U
+add wave -position end  sim:/main_testbench/P
+add wave -position end  sim:/main_testbench/C
+add wave -position end  sim:/main_testbench/M
+add wave -position end  sim:/main_testbench/discounted
+add wave -position end  sim:/main_testbench/stolen
+add wave -position end  sim:/main_testbench/HEX2
+add wave -position end  sim:/main_testbench/HEX1
+add wave -position end  sim:/main_testbench/HEX0
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/oorji/Desktop/ee271/lab3/main_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:29:28 on Oct 24,2024
+# vlog -reportprogress 300 ./returns.sv 
+# -- Compiling module returns
+# -- Compiling module returns_testbench
+# 
+# Top level modules:
+# 	returns_testbench
+# End time: 13:29:28 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:29:28 on Oct 24,2024
+# vlog -reportprogress 300 ./display.sv 
+# -- Compiling module display
+# -- Compiling module display_testbench
+# 
+# Top level modules:
+# 	display_testbench
+# End time: 13:29:28 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:29:28 on Oct 24,2024
+# vlog -reportprogress 300 ./main.sv 
+# -- Compiling module main
+# -- Compiling module main_testbench
+# 
+# Top level modules:
+# 	main_testbench
+# End time: 13:29:28 on Oct 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:29:29 on Oct 24,2024, Elapsed time: 0:00:44
+# Errors: 39, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work returns_testbench 
+# Start time: 13:29:29 on Oct 24,2024
+# Loading sv_std.std
+# Loading work.returns_testbench
+# Loading work.returns
+# End time: 13:29:31 on Oct 24,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work display_testbench 
+# Start time: 13:29:31 on Oct 24,2024
+# Loading sv_std.std
+# Loading work.display_testbench
+# Loading work.display
+# End time: 13:29:33 on Oct 24,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work main_testbench 
+# Start time: 13:29:33 on Oct 24,2024
+# Loading sv_std.std
+# Loading work.main_testbench
+# Loading work.main
+# Loading work.returns
+# Loading work.display
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/discounted'.
+# Executing ONERROR command at macro ./returns_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/stolen'.
+# Executing ONERROR command at macro ./returns_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/U'.
+# Executing ONERROR command at macro ./returns_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/P'.
+# Executing ONERROR command at macro ./returns_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/C'.
+# Executing ONERROR command at macro ./returns_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/returns_testbench/M'.
+# Executing ONERROR command at macro ./returns_wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/display_testbench/U'.
+# Executing ONERROR command at macro ./display_wave.do line 3
+# ** Error: (vish-4014) No objects found matching '/display_testbench/P'.
+# Executing ONERROR command at macro ./display_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/display_testbench/C'.
+# Executing ONERROR command at macro ./display_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/display_testbench/HEX2'.
+# Executing ONERROR command at macro ./display_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/display_testbench/HEX1'.
+# Executing ONERROR command at macro ./display_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/display_testbench/HEX0'.
+# Executing ONERROR command at macro ./display_wave.do line 8
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-# End time: 22:06:05 on Oct 22,2024, Elapsed time: 5:55:46
-# Errors: 18, Warnings: 0
+# End time: 14:14:04 on Oct 24,2024, Elapsed time: 0:44:31
+# Errors: 36, Warnings: 0
